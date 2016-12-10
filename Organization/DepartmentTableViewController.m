@@ -43,7 +43,7 @@
     //
     // NSManagedObject subclassing
     //
-    self.appDelegate = [[UIApplication sharedApplication] delegate];
+    self.appDelegate = (AppDelegate *)[[UIApplication sharedApplication] delegate];
     self.context = [self.appDelegate managedObjectContext];
     
     [self initializeFetchedResultsController];
@@ -147,17 +147,6 @@
     return cell;
 }
 
-//- (CGFloat)tableView:(UITableView *)tableView heightForRowAtIndexPath:(NSIndexPath *)indexPath {
-//    //NSInteger row_num = [tableView numberOfRowsInSection:indexPath.section];
-//    NSLog(@"ROW NUM=%i", (int)indexPath.row);
-////    if ((indexPath.row > 0) && (indexPath.row == row_num) && (tableView.editing == FALSE)) {
-////        return 0.0;
-////    } else {
-////        return 44.0;
-////    }
-//    return 44.0;
-//}
-
 - (BOOL)tableView:(UITableView *)tableView canEditRowAtIndexPath:(NSIndexPath *)indexPath {
     return YES;
 }
@@ -216,33 +205,11 @@
 }
 
 - (void)tableView:(UITableView *)tableView didSelectRowAtIndexPath:(NSIndexPath *)indexPath {
-//    UITableViewCell *cell = [tableView cellForRowAtIndexPath:indexPath];
     
     DepEmployee *depEmployee = [self.fetchedResultsController objectAtIndexPath:[NSIndexPath indexPathForRow:indexPath.row inSection:indexPath.section]];
    _selEmpName = [depEmployee valueForKeyPath:@"de_employee.name"];
 
-    
-//    if (indexPath.section == 1) {
-//        UITableViewCell *cell = [tableView cellForRowAtIndexPath:indexPath];
-//        
-//        Department *dep = [self.fetchedResultsController objectAtIndexPath:[NSIndexPath indexPathForRow:0 inSection:indexPath.row]];
-//        NSString *dep_name = [dep valueForKeyPath:@"name"];
-//        
-//        if (cell.accessoryType == UITableViewCellAccessoryCheckmark) {
-//            cell.accessoryType = UITableViewCellAccessoryNone;
-//            
-//            [_departments removeObjectForKey:dep_name];
-//        } else {
-//            cell.accessoryType = UITableViewCellAccessoryCheckmark;
-//            
-//            [_departments setObject:dep forKey:dep_name];
-//        }
-//        
-//        [tableView reloadData];
-//    }
-//    if (cell.isSelected) {
-        [self performSegueWithIdentifier:@"empDepSegue" sender:nil];
-//    }
+    [self performSegueWithIdentifier:@"empDepSegue" sender:nil];
 }
 
 #pragma mark - TableView Header
@@ -414,10 +381,6 @@
     DepEmployee *de4 = [[DepEmployee alloc] initWithEntity:depEmpEntity insertIntoManagedObjectContext:self.context];
     [dep1 addDepartment_deObject:de4];
     [emp4 addEmployee_deObject:de4];
-
-//    DepEmployee *de5 = [[DepEmployee alloc] initWithEntity:depEmpEntity insertIntoManagedObjectContext:self.context];
-//    [dep2 addDepartment_deObject:de5];
-//    [emp1 addEmployee_deObject:de5];
 
     DepEmployee *de6 = [[DepEmployee alloc] initWithEntity:depEmpEntity insertIntoManagedObjectContext:self.context];
     [dep2 addDepartment_deObject:de6];

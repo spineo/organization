@@ -27,7 +27,7 @@
 - (void)viewDidLoad {
     [super viewDidLoad];
     
-    self.appDelegate = [[UIApplication sharedApplication] delegate];
+    self.appDelegate = (AppDelegate *)[[UIApplication sharedApplication] delegate];
     self.context = [self.appDelegate managedObjectContext];
     
     [self initializeFetchedResultsController];
@@ -81,9 +81,6 @@
 
 - (NSInteger)tableView:(UITableView *)tableView numberOfRowsInSection:(NSInteger)section {
 
-//    id< NSFetchedResultsSectionInfo> sectionInfo = [[self fetchedResultsController] sections][section];
-//    
-//    return [sectionInfo numberOfObjects];
     if (section == 0) {
         return 1;
     } else {

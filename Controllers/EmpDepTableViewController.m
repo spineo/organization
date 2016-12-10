@@ -33,7 +33,7 @@
     _empName = _empObj.name;
     [self setTitle:[[NSString alloc] initWithFormat:@"Employee '%@' Detail", _empName]];
     
-    self.appDelegate = [[UIApplication sharedApplication] delegate];
+    self.appDelegate = (AppDelegate *)[[UIApplication sharedApplication] delegate];
     self.context = [self.appDelegate managedObjectContext];
     
     _departments = [self queryDepartments];
