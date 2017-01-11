@@ -1,2 +1,2 @@
-# org
-Simple "Organization" App developed a while back to serve as sandbox for trying out Core Data/ManagedObject/Fetch functionality. Latest tests on IOS10 (iPhone6S) simulator.
+# organization
+Simple Company Organization App developed a while back to test CoreData/NSManagedObject/NSFetchedResultsControllerDelegate functionality. Latest tests were run on the XCode 8, IOS10 (iPhone6) simulator.
