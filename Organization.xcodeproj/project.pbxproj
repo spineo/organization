@@ -11,16 +11,16 @@
 		210BB4781DFC6A0D00449B7B /* EmployeeAddTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 210BB4771DFC6A0D00449B7B /* EmployeeAddTableViewController.m */; };
 		210BB47C1DFC6B5000449B7B /* EmpDepTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 210BB47B1DFC6B5000449B7B /* EmpDepTableViewController.m */; };
 		210BB47F1DFC6CC700449B7B /* DepartmentTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 210BB47E1DFC6CC700449B7B /* DepartmentTableViewController.m */; };
-		210BB4871DFC6E6B00449B7B /* Department.m in Sources */ = {isa = PBXBuildFile; fileRef = 210BB4821DFC6E6B00449B7B /* Department.m */; };
-		210BB4881DFC6E6B00449B7B /* DepEmployee.m in Sources */ = {isa = PBXBuildFile; fileRef = 210BB4841DFC6E6B00449B7B /* DepEmployee.m */; };
 		213B3B191C22FF2400DEF6C6 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 213B3B181C22FF2400DEF6C6 /* main.m */; };
 		213B3B1F1C22FF2400DEF6C6 /* Organization.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 213B3B1D1C22FF2400DEF6C6 /* Organization.xcdatamodeld */; };
-		213B3B251C22FF2400DEF6C6 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 213B3B231C22FF2400DEF6C6 /* Main.storyboard */; };
 		213B3B271C22FF2400DEF6C6 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 213B3B261C22FF2400DEF6C6 /* Images.xcassets */; };
-		213B3B2A1C22FF2400DEF6C6 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 213B3B281C22FF2400DEF6C6 /* LaunchScreen.xib */; };
 		213B3B361C22FF2400DEF6C6 /* OrganizationTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 213B3B351C22FF2400DEF6C6 /* OrganizationTests.m */; };
-		219C47811E23CDE700DADF0F /* Employee.m in Sources */ = {isa = PBXBuildFile; fileRef = 219C47801E23CDE700DADF0F /* Employee.m */; };
 		21E279201E270B0B0075B2CC /* ManagedObjectUtils.m in Sources */ = {isa = PBXBuildFile; fileRef = 21E2791F1E270B0B0075B2CC /* ManagedObjectUtils.m */; };
+		21E2792A1E27100C0075B2CC /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 21E279281E27100C0075B2CC /* Main.storyboard */; };
+		21E2792D1E27102F0075B2CC /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 21E2792B1E27102F0075B2CC /* LaunchScreen.xib */; };
+		21E279361E2711CC0075B2CC /* Employee.m in Sources */ = {isa = PBXBuildFile; fileRef = 21E279351E2711CC0075B2CC /* Employee.m */; };
+		21E2793C1E2712F80075B2CC /* Department.m in Sources */ = {isa = PBXBuildFile; fileRef = 21E2793B1E2712F80075B2CC /* Department.m */; };
+		21E2793F1E2713620075B2CC /* DepEmployee.m in Sources */ = {isa = PBXBuildFile; fileRef = 21E2793E1E2713620075B2CC /* DepEmployee.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -34,18 +34,14 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		210BB4731DFC68C600449B7B /* AppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
-		210BB4741DFC68C600449B7B /* AppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		210BB4731DFC68C600449B7B /* AppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = AppDelegate.h; path = ../AppDelegate.h; sourceTree = "<group>"; };
+		210BB4741DFC68C600449B7B /* AppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = AppDelegate.m; path = ../AppDelegate.m; sourceTree = "<group>"; };
 		210BB4761DFC6A0D00449B7B /* EmployeeAddTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = EmployeeAddTableViewController.h; path = ../Controllers/EmployeeAddTableViewController.h; sourceTree = "<group>"; };
 		210BB4771DFC6A0D00449B7B /* EmployeeAddTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = EmployeeAddTableViewController.m; path = ../Controllers/EmployeeAddTableViewController.m; sourceTree = "<group>"; };
 		210BB47A1DFC6B5000449B7B /* EmpDepTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = EmpDepTableViewController.h; path = ../Controllers/EmpDepTableViewController.h; sourceTree = "<group>"; };
 		210BB47B1DFC6B5000449B7B /* EmpDepTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = EmpDepTableViewController.m; path = ../Controllers/EmpDepTableViewController.m; sourceTree = "<group>"; };
 		210BB47D1DFC6CC700449B7B /* DepartmentTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DepartmentTableViewController.h; sourceTree = "<group>"; };
 		210BB47E1DFC6CC700449B7B /* DepartmentTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DepartmentTableViewController.m; sourceTree = "<group>"; };
-		210BB4811DFC6E6B00449B7B /* Department.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Department.h; sourceTree = "<group>"; };
-		210BB4821DFC6E6B00449B7B /* Department.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Department.m; sourceTree = "<group>"; };
-		210BB4831DFC6E6B00449B7B /* DepEmployee.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DepEmployee.h; sourceTree = "<group>"; };
-		210BB4841DFC6E6B00449B7B /* DepEmployee.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DepEmployee.m; sourceTree = "<group>"; };
 		211FEE851C30795E002374EA /* Organization v7.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = "Organization v7.xcdatamodel"; sourceTree = "<group>"; };
 		211FEE8C1C359E21002374EA /* Organization v8.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = "Organization v8.xcdatamodel"; sourceTree = "<group>"; };
 		211FEE961C39A92E002374EA /* Organization v9.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = "Organization v9.xcdatamodel"; sourceTree = "<group>"; };
@@ -54,9 +50,7 @@
 		213B3B171C22FF2400DEF6C6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		213B3B181C22FF2400DEF6C6 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		213B3B1E1C22FF2400DEF6C6 /* Organization.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Organization.xcdatamodel; sourceTree = "<group>"; };
-		213B3B241C22FF2400DEF6C6 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		213B3B261C22FF2400DEF6C6 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
-		213B3B291C22FF2400DEF6C6 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
 		213B3B2F1C22FF2400DEF6C6 /* OrganizationTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = OrganizationTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		213B3B341C22FF2400DEF6C6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		213B3B351C22FF2400DEF6C6 /* OrganizationTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = OrganizationTests.m; sourceTree = "<group>"; };
@@ -65,12 +59,18 @@
 		213B3B5C1C28561700DEF6C6 /* Organization v4.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = "Organization v4.xcdatamodel"; sourceTree = "<group>"; };
 		213B3B601C306CF000DEF6C6 /* Organization v5.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = "Organization v5.xcdatamodel"; sourceTree = "<group>"; };
 		213B3B611C30742E00DEF6C6 /* Organization v6.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = "Organization v6.xcdatamodel"; sourceTree = "<group>"; };
-		219C477F1E23CDE700DADF0F /* Employee.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Employee.h; sourceTree = "<group>"; };
-		219C47801E23CDE700DADF0F /* Employee.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Employee.m; sourceTree = "<group>"; };
 		21D22DA11C4947AB00781A1A /* Organization v11.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = "Organization v11.xcdatamodel"; sourceTree = "<group>"; };
 		21D22DA21C4C161F00781A1A /* Organization v12.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = "Organization v12.xcdatamodel"; sourceTree = "<group>"; };
 		21E2791E1E270AFD0075B2CC /* ManagedObjectUtils.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ManagedObjectUtils.h; path = ../Utilities/ManagedObjectUtils.h; sourceTree = "<group>"; };
 		21E2791F1E270B0B0075B2CC /* ManagedObjectUtils.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = ManagedObjectUtils.m; path = ../Utilities/ManagedObjectUtils.m; sourceTree = "<group>"; };
+		21E279291E27100C0075B2CC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		21E2792C1E27102F0075B2CC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+		21E279341E2711CC0075B2CC /* Employee.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = Employee.h; path = /Users/stuartpineo/AppDevelopment/Organization/ManagedObject/Employee.h; sourceTree = "<absolute>"; };
+		21E279351E2711CC0075B2CC /* Employee.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = Employee.m; path = /Users/stuartpineo/AppDevelopment/Organization/ManagedObject/Employee.m; sourceTree = "<absolute>"; };
+		21E2793A1E2712F80075B2CC /* Department.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = Department.h; path = /Users/stuartpineo/AppDevelopment/Organization/ManagedObject/Department.h; sourceTree = "<absolute>"; };
+		21E2793B1E2712F80075B2CC /* Department.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = Department.m; path = /Users/stuartpineo/AppDevelopment/Organization/ManagedObject/Department.m; sourceTree = "<absolute>"; };
+		21E2793D1E2713620075B2CC /* DepEmployee.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = DepEmployee.h; path = ../ManagedObject/DepEmployee.h; sourceTree = "<group>"; };
+		21E2793E1E2713620075B2CC /* DepEmployee.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = DepEmployee.m; path = /Users/stuartpineo/AppDevelopment/Organization/ManagedObject/DepEmployee.m; sourceTree = "<absolute>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -107,12 +107,12 @@
 		210BB4801DFC6D8D00449B7B /* ManagedObject */ = {
 			isa = PBXGroup;
 			children = (
-				219C477F1E23CDE700DADF0F /* Employee.h */,
-				219C47801E23CDE700DADF0F /* Employee.m */,
-				210BB4811DFC6E6B00449B7B /* Department.h */,
-				210BB4821DFC6E6B00449B7B /* Department.m */,
-				210BB4831DFC6E6B00449B7B /* DepEmployee.h */,
-				210BB4841DFC6E6B00449B7B /* DepEmployee.m */,
+				21E2793D1E2713620075B2CC /* DepEmployee.h */,
+				21E2793E1E2713620075B2CC /* DepEmployee.m */,
+				21E2793A1E2712F80075B2CC /* Department.h */,
+				21E2793B1E2712F80075B2CC /* Department.m */,
+				21E279341E2711CC0075B2CC /* Employee.h */,
+				21E279351E2711CC0075B2CC /* Employee.m */,
 			);
 			name = ManagedObject;
 			sourceTree = "<group>";
@@ -129,8 +129,7 @@
 		213B3B0A1C22FF2400DEF6C6 = {
 			isa = PBXGroup;
 			children = (
-				210BB4731DFC68C600449B7B /* AppDelegate.h */,
-				210BB4741DFC68C600449B7B /* AppDelegate.m */,
+				21E279211E270DA10075B2CC /* Base.lproj */,
 				213B3B151C22FF2400DEF6C6 /* Organization */,
 				213B3B321C22FF2400DEF6C6 /* OrganizationTests */,
 				213B3B141C22FF2400DEF6C6 /* Products */,
@@ -149,12 +148,14 @@
 		213B3B151C22FF2400DEF6C6 /* Organization */ = {
 			isa = PBXGroup;
 			children = (
+				210BB4731DFC68C600449B7B /* AppDelegate.h */,
+				210BB4741DFC68C600449B7B /* AppDelegate.m */,
 				210BB48A1DFC6EA000449B7B /* Utilities */,
 				210BB4801DFC6D8D00449B7B /* ManagedObject */,
 				210BB4791DFC6A2D00449B7B /* Controllers */,
-				213B3B231C22FF2400DEF6C6 /* Main.storyboard */,
+				21E279281E27100C0075B2CC /* Main.storyboard */,
+				21E2792B1E27102F0075B2CC /* LaunchScreen.xib */,
 				213B3B261C22FF2400DEF6C6 /* Images.xcassets */,
-				213B3B281C22FF2400DEF6C6 /* LaunchScreen.xib */,
 				213B3B1D1C22FF2400DEF6C6 /* Organization.xcdatamodeld */,
 				213B3B161C22FF2400DEF6C6 /* Supporting Files */,
 			);
@@ -186,6 +187,14 @@
 			);
 			name = "Supporting Files";
 			sourceTree = "<group>";
+		};
+		21E279211E270DA10075B2CC /* Base.lproj */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Base.lproj;
+			path = /Users/stuartpineo/AppDevelopment/Organization;
+			sourceTree = "<absolute>";
 		};
 /* End PBXGroup section */
 
@@ -267,8 +276,8 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				213B3B251C22FF2400DEF6C6 /* Main.storyboard in Resources */,
-				213B3B2A1C22FF2400DEF6C6 /* LaunchScreen.xib in Resources */,
+				21E2792D1E27102F0075B2CC /* LaunchScreen.xib in Resources */,
+				21E2792A1E27100C0075B2CC /* Main.storyboard in Resources */,
 				213B3B271C22FF2400DEF6C6 /* Images.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -290,13 +299,13 @@
 				210BB47C1DFC6B5000449B7B /* EmpDepTableViewController.m in Sources */,
 				210BB47F1DFC6CC700449B7B /* DepartmentTableViewController.m in Sources */,
 				213B3B1F1C22FF2400DEF6C6 /* Organization.xcdatamodeld in Sources */,
-				210BB4881DFC6E6B00449B7B /* DepEmployee.m in Sources */,
-				210BB4871DFC6E6B00449B7B /* Department.m in Sources */,
-				219C47811E23CDE700DADF0F /* Employee.m in Sources */,
+				21E279361E2711CC0075B2CC /* Employee.m in Sources */,
+				21E2793C1E2712F80075B2CC /* Department.m in Sources */,
 				21E279201E270B0B0075B2CC /* ManagedObjectUtils.m in Sources */,
 				210BB4781DFC6A0D00449B7B /* EmployeeAddTableViewController.m in Sources */,
 				210BB4751DFC68C600449B7B /* AppDelegate.m in Sources */,
 				213B3B191C22FF2400DEF6C6 /* main.m in Sources */,
+				21E2793F1E2713620075B2CC /* DepEmployee.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -319,20 +328,22 @@
 /* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
-		213B3B231C22FF2400DEF6C6 /* Main.storyboard */ = {
+		21E279281E27100C0075B2CC /* Main.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
-				213B3B241C22FF2400DEF6C6 /* Base */,
+				21E279291E27100C0075B2CC /* Base */,
 			);
 			name = Main.storyboard;
+			path = ..;
 			sourceTree = "<group>";
 		};
-		213B3B281C22FF2400DEF6C6 /* LaunchScreen.xib */ = {
+		21E2792B1E27102F0075B2CC /* LaunchScreen.xib */ = {
 			isa = PBXVariantGroup;
 			children = (
-				213B3B291C22FF2400DEF6C6 /* Base */,
+				21E2792C1E27102F0075B2CC /* Base */,
 			);
 			name = LaunchScreen.xib;
+			path = ..;
 			sourceTree = "<group>";
 		};
 /* End PBXVariantGroup section */
