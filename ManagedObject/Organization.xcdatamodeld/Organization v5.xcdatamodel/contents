@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<model userDefinedModelVersionIdentifier="" type="com.apple.IDECoreDataModeler.DataModel" documentVersion="1.0" lastSavedToolsVersion="7701" systemVersion="14B25" minimumToolsVersion="Automatic" macOSVersion="Automatic" iOSVersion="Automatic">
+    <entity name="Department" representedClassName="Department" syncable="YES">
+        <attribute name="name" optional="YES" attributeType="String" syncable="YES"/>
+        <relationship name="dep_emp" optional="YES" toMany="YES" minCount="1" deletionRule="Deny" destinationEntity="DepEmp" inverseName="department" inverseEntity="DepEmp" syncable="YES"/>
+    </entity>
+    <entity name="DepEmp" representedClassName="DepEmp" syncable="YES">
+        <attribute name="dep_name" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="emp_name" optional="YES" attributeType="String" syncable="YES"/>
+        <relationship name="department" optional="YES" maxCount="1" deletionRule="Deny" destinationEntity="Department" inverseName="dep_emp" inverseEntity="Department" syncable="YES"/>
+        <relationship name="employee" optional="YES" maxCount="1" deletionRule="Nullify" destinationEntity="Employee" inverseName="emp_dep" inverseEntity="Employee" syncable="YES"/>
+    </entity>
+    <entity name="Employee" representedClassName="Employee" syncable="YES">
+        <attribute name="name" optional="YES" attributeType="String" syncable="YES"/>
+        <relationship name="emp_dep" optional="YES" toMany="YES" deletionRule="Nullify" destinationEntity="DepEmp" inverseName="employee" inverseEntity="DepEmp" syncable="YES"/>
+    </entity>
+    <elements>
+        <element name="Department" positionX="-1062" positionY="-364" width="128" height="73"/>
+        <element name="DepEmp" positionX="-792" positionY="-369" width="128" height="103"/>
+        <element name="Employee" positionX="-513" positionY="-367" width="128" height="73"/>
+    </elements>
+</model>
